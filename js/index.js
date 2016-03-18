@@ -32,4 +32,12 @@ $(document).ready(function() {
         $('#dv-navbar-collapse').collapse('hide');
     });
 
+    // Mobile Swipe support for carousel
+    jQuery("#projects-carousel").touchwipe({
+        wipeLeft: function() { jQuery("#projects-carousel").carousel('next'); },
+        wipeRight: function() { jQuery("#projects-carousel").carousel('prev'); },
+        min_mov_x: 20,
+        preventDefaultEvents: false
+    });
+
 });
