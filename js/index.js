@@ -1,7 +1,7 @@
 $(document).ready(function() {
     var portrait = new Image();
     portrait.onload = function() {
-        $(".jumbotron").css("background", "url(images/portraitwide.jpg) no-repeat center center scroll");
+        $(".jumbotron").css("background", "url(img/portraitwide.jpg) no-repeat center center scroll");
         $(".jumbotron").css("webkit-background-size", "cover");
         $(".jumbotron").css("moz-background-size", "cover");
         $(".jumbotron").css("o-background-size", "cover");
