@@ -6,12 +6,14 @@
  * Made By MaterializeCSS.com
  */
 
+/*
 .icon-block {
     padding: 0 15px;
 }
 .icon-block .material-icons {
     font-size: inherit;
 }
+*/
 
 body {
     display: flex;
@@ -21,4 +23,15 @@ body {
 
 main {
     flex: 1 0 auto;
+}
+
+div.icon-container {
+    display: inline;
+    margin: 10px;
+}
+
+#index-banner {
+    /*padding-top: 80px;*/
+    /*padding-bottom: 80px;*/
+    min-height: 100vh;
 }
