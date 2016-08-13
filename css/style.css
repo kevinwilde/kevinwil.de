@@ -21,6 +21,10 @@ body {
     flex-direction: column;
 }
 
+.navbar-fixed {
+    position: absolute;
+}
+
 main {
     flex: 1 0 auto;
 }
@@ -31,7 +35,5 @@ div.icon-container {
 }
 
 #index-banner {
-    /*padding-top: 80px;*/
-    /*padding-bottom: 80px;*/
     min-height: 100vh;
 }
