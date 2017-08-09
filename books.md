@@ -1,0 +1,13 @@
+- **Clean Code** - Robert Martin
+- **The Invisible Gorilla** - Christopher Chabris and Daniel Simons
+- **The Righteous Mind** - Jonathan Haidt
+- **Evicted** - Matthew Desmond
+- **Shutter Island** - Dennis Lehane
+- **Columbine** - Dave Cullen
+- **Freakonomics** - Steven Levitt and Stephen Dubner
+- **The Signal and the Noise** - Nate Silver
+- **Gone Girl** - Gyllian Flynn
+- **On Intelligence** - Jeff Hawkins
+- **Disgrace** - J.M. Coetzee
+- **Fahrenheit 451** - Ray Bradbury
+- **The Kite Runner** - Khaled Hosseini
