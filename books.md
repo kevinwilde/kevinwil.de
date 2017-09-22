@@ -1,3 +1,4 @@
+- **The Upside of Irrationality** - Dan Ariely
 - **Clean Code** - Robert Martin
 - **The Invisible Gorilla** - Christopher Chabris and Daniel Simons
 - **The Righteous Mind** - Jonathan Haidt
