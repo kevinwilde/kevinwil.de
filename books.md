@@ -1,3 +1,7 @@
+- **Mindset** - Carol S. Dweck
+- **Thinking Fast and Slow** - Daniel Kahneman
+- **Men Without Women** - Haruki Murakami
+- **The Talented Mr. Ripley** - Patricia Highsmith
 - **The Upside of Irrationality** - Dan Ariely
 - **Clean Code** - Robert Martin
 - **The Invisible Gorilla** - Christopher Chabris and Daniel Simons
