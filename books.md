@@ -1,4 +1,5 @@
 - **Mindset** - Carol S. Dweck
+- **Ready Player One** - Ernest Cline
 - **Thinking Fast and Slow** - Daniel Kahneman
 - **Men Without Women** - Haruki Murakami
 - **The Talented Mr. Ripley** - Patricia Highsmith
