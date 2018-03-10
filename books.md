@@ -1,5 +1,5 @@
 - **Mindset** - Carol S. Dweck
-- **The Haate U Give** - Angie Thomas
+- **The Hate U Give** - Angie Thomas
 - **Ready Player One** - Ernest Cline
 - **Thinking Fast and Slow** - Daniel Kahneman
 - **Men Without Women** - Haruki Murakami
