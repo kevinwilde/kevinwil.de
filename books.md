@@ -1,3 +1,5 @@
+- **The Girl on the Train** - Paula Hawkins
+- **The Wife Between Us** - Greer Hendricks and Sarah Pekkanen
 - **Mindset** - Carol S. Dweck
 - **The Hate U Give** - Angie Thomas
 - **Ready Player One** - Ernest Cline
