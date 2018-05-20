@@ -1,3 +1,5 @@
+- **The Code Book** - Simon Singh
+- **Sharp Objects** - Gyllian Flynn
 - **The Girl on the Train** - Paula Hawkins
 - **The Wife Between Us** - Greer Hendricks and Sarah Pekkanen
 - **Mindset** - Carol S. Dweck
