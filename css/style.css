@@ -1,40 +1,25 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
-
-/*
-.icon-block {
-    padding: 0 15px;
-}
-.icon-block .material-icons {
-    font-size: inherit;
-}
-*/
-
 body {
+    font-family: monospace;
+    background-color: darkslategray;
+    color: whitesmoke;
+}
+
+.content {
     display: flex;
-    min-height: 100vh;
     flex-direction: column;
+    justify-content: center;
+    min-height: 80vh;
 }
 
-.navbar-fixed {
-    position: absolute;
+.center {
+    display: flex;
+    justify-content: center;
 }
 
-main {
-    flex: 1 0 auto;
+.title {
+    margin-bottom: 4rem;
 }
 
-div.icon-container {
-    display: inline;
+.icon-container {
     margin: 10px;
 }
-
-#index-banner {
-    min-height: 100vh;
-}
-
