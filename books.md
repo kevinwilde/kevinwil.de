@@ -1,3 +1,5 @@
+- **How Music Got Free** - Stephen Witt
+- **Bad Blood** - John Carreyrou
 - **The Code Book** - Simon Singh
 - **Sharp Objects** - Gyllian Flynn
 - **The Girl on the Train** - Paula Hawkins
