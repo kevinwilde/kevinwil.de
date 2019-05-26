@@ -6,8 +6,11 @@
  */
 
 import React from "react"
+import githubIcon from '../../content/assets/github_icon_white.png'
+import linkedinIcon from '../../content/assets/linkedin_icon_white.png'
+import twitterIcon from '../../content/assets/twitter_icon_white.png'
+
 import { StaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
 
 import { rhythm } from "../utils/typography"
 
@@ -16,7 +19,7 @@ function Bio() {
     <StaticQuery
       query={bioQuery}
       render={data => {
-        const { author, social } = data.site.siteMetadata
+        const { social } = data.site.siteMetadata
         return (
           <div
             style={{
@@ -24,27 +27,21 @@ function Bio() {
               marginBottom: rhythm(2.5),
             }}
           >
-            <Image
-              fixed={data.avatar.childImageSharp.fixed}
-              alt={author}
-              style={{
-                marginRight: rhythm(1 / 2),
-                marginBottom: 0,
-                minWidth: 50,
-                borderRadius: `100%`,
-              }}
-              imgStyle={{
-                borderRadius: `50%`,
-              }}
+            <BioIcon
+              url={`https://github.com/${social.github}`}
+              imgSrc={githubIcon}
+              imgAlt="Github"
             />
-            <p>
-              Written by <strong>{author}</strong> who lives and works in San
-              Francisco building useful things.
-              {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
-              </a>
-            </p>
+            <BioIcon
+              url={`https://twitter.com/${social.twitter}`}
+              imgSrc={twitterIcon}
+              imgAlt="Twitter"
+            />
+            <BioIcon
+              url={`https://linkedin.com/in/${social.linkedin}`}
+              imgSrc={linkedinIcon}
+              imgAlt="Linkedin"
+            />
           </div>
         )
       }}
@@ -52,20 +49,30 @@ function Bio() {
   )
 }
 
+function BioIcon({ url, imgSrc, imgAlt }) {
+  return (
+    <a href={url}>
+      <img
+        height="30"
+        src={imgSrc}
+        alt={imgAlt}
+        style={{
+          marginBottom: rhythm(0.5)
+        }}
+      />
+    </a>
+  )
+}
+
 const bioQuery = graphql`
   query BioQuery {
-    avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
-      childImageSharp {
-        fixed(width: 50, height: 50) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
     site {
       siteMetadata {
         author
         social {
           twitter
+          github
+          linkedin
         }
       }
     }
