@@ -1,3 +1,5 @@
+- **Black Flags: The Rise of ISIS** - Joby Warrick
+- **Locking Up Our Own: Crime and Punishment in Black America** - James Forman Jr.
 - **How Music Got Free** - Stephen Witt
 - **Bad Blood** - John Carreyrou
 - **The Code Book** - Simon Singh
