@@ -1,6 +1,7 @@
 ---
 title: ClassNamed Components
 date: "2019-06-08"
+description: ""
 ---
 
 At Course Hero, we aren't yet using a CSS-in-JS library. Instead, we have a css framework that is largely based on Bootstrap 4. While CSS-in-JS libraries provide [many benefits](https://www.styled-components.com/docs/basics#motivation) over external stylesheets, and we may eventually use CSS-in-JS, for now our css framework is serving us well.
