@@ -1,4 +1,4 @@
 // custom typefaces
-import "typeface-montserrat"
+import "typeface-open-sans"
 import "typeface-merriweather"
-require('prismjs/themes/prism.css')
+import "prismjs/themes/prism.css"

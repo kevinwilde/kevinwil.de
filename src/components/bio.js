@@ -6,13 +6,11 @@
  */
 
 import React from "react"
-import githubIcon from '../../content/assets/github_icon_white.png'
-import linkedinIcon from '../../content/assets/linkedin_icon_white.png'
-import twitterIcon from '../../content/assets/twitter_icon_white.png'
+import githubIcon from "../../content/assets/github_icon_white.png"
+import linkedinIcon from "../../content/assets/linkedin_icon_white.png"
+import twitterIcon from "../../content/assets/twitter_icon_white.png"
 
 import { StaticQuery, graphql } from "gatsby"
-
-import { rhythm } from "../utils/typography"
 
 function Bio() {
   return (
@@ -24,7 +22,7 @@ function Bio() {
           <div
             style={{
               display: `flex`,
-              marginBottom: rhythm(2.5),
+              marginBottom: "4rem",
             }}
           >
             <BioIcon
@@ -51,13 +49,13 @@ function Bio() {
 
 function BioIcon({ url, imgSrc, imgAlt }) {
   return (
-    <a href={url}>
+    <a href={url} target="_blank" rel="noopener noreferrer">
       <img
         height="30"
         src={imgSrc}
         alt={imgAlt}
         style={{
-          marginBottom: rhythm(0.5)
+          margin: "0.75rem",
         }}
       />
     </a>

@@ -3,9 +3,21 @@ import Wordpress2016 from "typography-theme-wordpress-2016"
 
 Wordpress2016.overrideThemeStyles = () => {
   return {
+    body: {
+      background: 'whitesmoke',
+    },
+    "h1, h2, h3, h4, h5, h6": {
+      fontFamily: "open sans, sans-serif"
+    },
+    a: {
+      color: 'seagreen',
+    },
     "a.gatsby-resp-image-link": {
       boxShadow: `none`,
     },
+    ':not(pre) > code[class*="language="], pre[class*="language-"]': {
+      background: '#F0F0F0 !important',
+    }
   }
 }
 
