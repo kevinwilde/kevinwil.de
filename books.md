@@ -1,4 +1,5 @@
 - **Black Flags: The Rise of ISIS** - Joby Warrick
+- **Everybody Lies: Big Data, New Data, and What the Internet Can Tell Us About Who We Really Are** - Seth Stephens-Davidowitz
 - **Locking Up Our Own: Crime and Punishment in Black America** - James Forman Jr.
 - **How Music Got Free** - Stephen Witt
 - **Bad Blood** - John Carreyrou
