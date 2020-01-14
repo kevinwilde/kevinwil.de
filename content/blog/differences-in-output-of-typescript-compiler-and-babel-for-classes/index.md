@@ -8,24 +8,60 @@ Recently, I worked on switching our entire frontend codebase from using ts-loade
 
 ## Background
 
-Originally (before my time) at Course Hero, we were building our react apps using both ts-loader and babel-loader. ts-loader would compile Typescript to ES6, then babel-loader would transpile ES6 to ES5. However, since the Typescript compiler can target es6 directly, another engineer removed babel from the build process so that we were just using ts-loader. This was simpler and also improved the speed of builds.
+Originally (before my time) at Course Hero, we were building our react apps using both ts-loader and babel-loader. ts-loader would compile Typescript to ES6, then babel-loader would transpile ES6 to ES5. However, since the Typescript compiler can target es6 directly, we chose to remove babel from the build process so that we were just using ts-loader. This was simpler and also improved the speed of our builds.
 
-Not long after this, though, @babel/preset-typescript was released, and it became very easy to compile Typescript to Javascript with Babel. The main reason I wanted to make this change was so that we could use [react-refresh](https://twitter.com/dan_abramov/status/1144630328142831616).
+Not long after this, though, @babel/preset-typescript was released, and it became very easy to compile Typescript to Javascript with Babel. We continued to use ts-loader for some time because it was working well for us and we didn't have a compelling reason to use Babel instead. That changed when I saw [react-refresh](https://twitter.com/dan_abramov/status/1144630328142831616). Our existing local development experience with react-hot-loader was often frustrating and unreliable. I realized we could drastically improve the local devlopment experience if we could use react-refresh, but this would require us to switch to Babel. So I got to work.
 
-Switching from ts-loader to babel-loader is pretty straightforward for the most part -- swap out ts-loader with babel-loader in the webpack config. However, there are a couple things to be aware of. [Microsoft's blog post](https://devblogs.microsoft.com/typescript/typescript-and-babel-7/) about using Typescript and Babel 7 points out that namespaces and const enums don't work with Babel. I also saw this mentioned in several other articles. If you're worried about this, I wouldn't be. A PM on the Typescript team [explained why it's no big deal here](https://github.com/facebook/create-react-app/pull/4837#issuecomment-430107471).
+Switching from ts-loader to babel-loader is pretty straightforward for the most part -- swap out ts-loader with babel-loader in the webpack config. However, there are a couple things to be aware of. [Microsoft's blog post](https://devblogs.microsoft.com/typescript/typescript-and-babel-7/) about using Typescript and Babel 7 points out that namespaces and const enums don't work with Babel. I also saw this mentioned in several other articles. If you're worried about this, I wouldn't be. A program manager on the Typescript team [explained why it's no big deal here](https://github.com/facebook/create-react-app/pull/4837#issuecomment-430107471).
 
-However, there were two other surprising differences that I ran into. These were more difficult to debug because, unlike the examples above, Babel will successfully compile the code. But the output is noticably different than that of the Typescript compiler.
+However, there were two other surprising differences that I ran into. These were more difficult to debug because, unlike the examples above, the code successfully compiles with both the Typescript compiler and with Babel. But the output is observably different between the two.
 
 ## 1. Enumerability of class methods
 
-When Typescript compiles classes, it marks class methods enumerable. This is not in line with the spec for ES6 classes, which says that class methods should be non enumerable. When compiling typescript code with babel, class methods are marked non enumerable.
-See https://github.com/microsoft/TypeScript/issues/782
+When Typescript compiles classes, it marks class methods enumerable. This is not in line with the spec for ES6 classes, which says that class methods should be non-enumerable. When compiling typescript code with Babel, class methods are marked non-enumerable.
+Some reasoning for why the Typescript compiler marks the methods as enumerable is provided in [this GitHub issue](https://github.com/microsoft/TypeScript/issues/782).
 
-This was an issue for us because we had a custom flux framework that used for .. in loops on instances of classes to copy their methods -- details are not important
+### Ways to preserve existing behavior
 
-Fixes:
-- class properties instead of class methods
-- getOwnPropertyNames would probably also work
+- Use class properties instead of class methods
+
+This is a good option if it's easier for you to change all the necessary classes than to change all the usages that would be affected by enumerability of methods.
+
+Before:
+```ts
+class MyObject {
+    myMethod() {
+        ...
+    }
+}
+```
+
+After:
+```ts
+class MyObject {
+    myMethod = () => {
+        ...
+    }
+}
+```
+
+- getOwnPropertyNames
+
+This is a good option if it's easier for you to change the places that would be affected by enumerability of methods than to change the classes that have those methods.
+
+Before:
+```ts
+for (const property in obj) {
+    ...
+}
+```
+
+After:
+```ts
+for (const property in Object.getOwnPropertyNames(obj)) {
+    ...
+}
+```
 
 
 ## 2. Uninitialized class properties
@@ -49,12 +85,10 @@ var ImplicitlyUndefinedProperties = (function () {
 }());
 ```
 
-This is inconsistent with the spec for ES6 classes, which says that these properties should be initialized as undefined. Babel does this correctly.
-
-The constructor of BaseModel copies over the data passed to it onto `this`. However, when using Babel, the class properties then get overwritten when they are initialized as undefined. You can imagine that the code Typescript generates is like
+This is inconsistent with the spec for ES6 classes, which says that these properties should be initialized as undefined. Babel does this correctly. You can imagine that the code Typescript generates is like
 
 ```ts
-class Subclass extends BaseModel {
+class MyObject extends BaseObject {
   constructor(data) {
     super(data)
   }
@@ -64,7 +98,7 @@ class Subclass extends BaseModel {
 and the code generated by Babel is like
 
 ```ts
-class Subclass extends BaseModel {
+class MyObject extends BaseObject {
   constructor(data) {
     super(data)
     this.property1 = undefined
@@ -73,28 +107,64 @@ class Subclass extends BaseModel {
 }
 ```
 
-Related links:
+This was an issue for us because we had some classes that extended a base class whose constructor looked like
+
+```ts
+constructor(data: any = {}) {
+  Object.assign(this, data);
+}
+```
+
+The subclasses were then used as
+
+```ts
+const obj = new MyObject({a: 1, b: 2})
+// obj.a === 1 is expected to be true
+```
+
+The code relied on the base class to copy any properties passed into the constructor onto the instance of the class.
+
+Related GitHub issues:
 - https://github.com/microsoft/TypeScript/issues/12437
 - https://github.com/microsoft/TypeScript/issues/28823
 
 
-Fixes:
-- Static create method instead of constructor
-    ```ts
-    static create(data) {
-        const instance = new this();
-        Object.assign(instance, data);
-        return instance;
-    }
+### Ways to preserve existing behavior
 
-    // and used as...
-    MyObject.create({ id: 1, name: 'test' })
-    ```
-- In order to fix this, I just added a constructor to all classes that extend BaseModel, so that the properties in the argument to the constructor get re-copied onto `this`.
-- Default value of property is itself
+- Add a constructor to all subclasses
+
+The benefit of this approach is that you do not need to change the way these classes are used and (at least in our case) it was easy to accomplish by a global find and replace.
+
+- Initialize properties to themselves
+
+Similar to the solution above, this approach does not require you to change the way these classes are used.
+
 ```ts
-    class MyObject extends BaseModel {
-        id : number = this.id
-        name : string = this.name
-    }
+class MyObject extends BaseObject {
+  id: number = this.id;
+  name: string = this.name;
+}
+```
+
+- Static create method in base class instead of constructor
+
+The benefit of this approach is that you will not need to change the subclasses. The downside is that you will need to change each place that instantiates a subclass.
+
+This is a good option if it's easy to find all places where the constructor of the class is called because it will need to be replaced with a call to this static method.
+
+```ts
+class BaseObject {
+  static create(data) {
+    const instance = new this();
+    Object.assign(instance, data);
+    return instance;
+  }
+}
+
+class MyObject extends BaseObject {
+  ...
+}
+
+// and used as...
+MyObject.create({ id: 1, name: 'test' })
 ```
