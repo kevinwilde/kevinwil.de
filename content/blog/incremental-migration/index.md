@@ -4,7 +4,7 @@ date: "2019-06-16"
 description: ""
 ---
 
-TypeScript has exploded in popularity over the past couple years. If you asked a typical developer why they think this has happened, they might say something about the value of static type-checking. It helps prevent bugs, it's easier to understand code when you precisely know the shape of objects, it enables a better developer experience, it allows for greater confidence when refactoring, etc. These are all great benefits of using TypeScript, but in my opinion these benefits alone would not have been sufficient for TypeScript to become popular.
+TypeScript has exploded in popularity over the past couple years. If you asked a random developer why they think this has happened, they might say something about the value of static type-checking. It helps prevent bugs, it's easier to understand code when you precisely know the shape of objects, it enables a better developer experience, it allows for greater confidence when refactoring, etc. These are all great benefits of using TypeScript, but in my opinion these benefits alone would not have been sufficient for TypeScript to become popular.
 
 A key feature of TypeScript is that it is extremely easy to use it incrementally migrate an existing JavaScript codebase to TypeScript. An incremental migration path is one of the most essential conditions for the successful adoption of a programming language, framework, library, tool, etc. React and GraphQL are two other examples of projects that I don't think would have gotten as popular as they are today if they hadn't provided such a good migration path.
 
