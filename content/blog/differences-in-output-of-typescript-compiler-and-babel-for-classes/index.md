@@ -8,7 +8,7 @@ Recently, I worked on switching our entire frontend codebase from using ts-loade
 
 ## Background
 
-Originally (before my time) at Course Hero, we were building our react apps using both ts-loader and babel-loader. ts-loader would compile Typescript to ES6, then babel-loader would transpile ES6 to ES5. However, since the Typescript compiler can target es6 directly, we chose to remove babel from the build process so that we were just using ts-loader. This was simpler and also improved the speed of our builds.
+Originally (before my time) at Course Hero, we were building our react apps using both ts-loader and babel-loader. ts-loader would compile Typescript to ES6, then babel-loader would transpile ES6 to ES5. However, since the Typescript compiler can target ES5 directly, we chose to remove babel from the build process so that we were just using ts-loader. This was simpler and also improved the speed of our builds.
 
 Not long after this, though, @babel/preset-typescript was released, and it became very easy to compile Typescript to Javascript with Babel. We continued to use ts-loader for some time because it was working well for us and we didn't have a compelling reason to use Babel instead. That changed when I saw [react-refresh](https://twitter.com/dan_abramov/status/1144630328142831616). Our existing local development experience with react-hot-loader was often frustrating and unreliable. I realized we could drastically improve the local devlopment experience if we could use react-refresh, but this would require us to switch to Babel. So I got to work.
 
