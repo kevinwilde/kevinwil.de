@@ -1,3 +1,6 @@
+- **All the Light We Cannot See** - Anthony Doerr
+- **Look Me in the Eye: My Life with Asperger's** - John Elder Robison
+- **American Overdose: The Opioid Tragedy in Three Acts** - Chris McGreal
 - **Educated** - Tara Westover
 - **Black Flags: The Rise of ISIS** - Joby Warrick
 - **Everybody Lies: Big Data, New Data, and What the Internet Can Tell Us About Who We Really Are** - Seth Stephens-Davidowitz
