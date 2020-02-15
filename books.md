@@ -1,4 +1,5 @@
 - **All the Light We Cannot See** - Anthony Doerr
+- **The Undoing Project** - Michael Lewis
 - **Look Me in the Eye: My Life with Asperger's** - John Elder Robison
 - **American Overdose: The Opioid Tragedy in Three Acts** - Chris McGreal
 - **Educated** - Tara Westover
