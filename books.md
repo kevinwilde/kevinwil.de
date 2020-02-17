@@ -1,6 +1,7 @@
 - **All the Light We Cannot See** - Anthony Doerr
 - **The Undoing Project** - Michael Lewis
 - **Look Me in the Eye: My Life with Asperger's** - John Elder Robison
+- **Janesville: An American Story** - Amy Goldstein
 - **American Overdose: The Opioid Tragedy in Three Acts** - Chris McGreal
 - **Educated** - Tara Westover
 - **Black Flags: The Rise of ISIS** - Joby Warrick
