@@ -1,3 +1,5 @@
+- **Where the Crawdads Sing** - Delia Owens
+- **Native Son** - Richard Wright
 - **The Three-Body Problem** - Cixin Liu
 - **All the Light We Cannot See** - Anthony Doerr
 - **The Undoing Project** - Michael Lewis
