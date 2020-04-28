@@ -17,7 +17,7 @@ In order to do so, you change the type of the Dropdown component's props as foll
 ```ts
 type Props = {
 
-  <...other props...>
+  /* ...other props... */
 
   items: string[] | any[]
   renderItem?: (item: any) => React.ReactNode
@@ -28,7 +28,7 @@ To elimate the `any`, you use a generic:
 ```ts
 type Props<T> = {
 
-  <...other props...>
+  /* ...other props... */
 
   items: string[] | T[]
   renderItem?: (item: T) => React.ReactNode
@@ -39,7 +39,7 @@ Then, you realize you can simplify this further to:
 ```ts
 type Props<T> = {
 
-  <...other props...>
+  /* ...other props... */
 
   // if you pass a string[], TypeScript will infer that
   // T = string so we can remove the union with string[]
@@ -67,74 +67,44 @@ Given that multiple people have now had an issue using the Dropdown component, y
 
 The way the Dropdown component is implemented requires the `renderItem` prop when `items` is an array of anything other than strings, and it ignores the `renderItem` prop when `items` is an array of strings. (You could implement this in a different way so that you can still have a custom way of rendering items even they are an array of strings, but let's stick with this implementation for the sake of the story.)
 
-However, the type of Dropdown doesn't convey this. The type simply states that `items` is required and is of type `T[]` for some `T`, and `renderItem` is optional and is of `(item: T) => React.ReactNode`. Thus, passing an array of objects without passing `renderItem` satisfies the type, and passing an array of strings while passing `renderItem` also satisfies the type.
+However, the type of Dropdown doesn't convey this. The type simply states that
+<br/>
+&nbsp; 1. `items` is required and is of type `T[]` for some `T`
+<br />
+&nbsp; 2. `renderItem` is optional and is of `(item: T) => React.ReactNode`.
+
+Thus, passing an array of objects without passing `renderItem` satisfies the type, and passing an array of strings while passing `renderItem` also satisfies the type.
 
 A more accurate way to define the type is:
 ```ts
 type Props<T> = {
 
-  <...other props...>
-} & (
-  | { items: string[] }
-  | {
-      items: T[]
-      renderItem: (item: T) => React.ReactNode
-    }
-)
-```
-This accurately conveys that when items is of type `string[]` you should not pass `renderItem`, but when items is an array of objects, `renderItem` is required. You will get a type error if you leave it off.
+  /* ...other props... */
 
-With this type definition, there is less confusion about how to use these props and you can even remove the defensive check you added previously to warn that the `renderItem` prop should be passed when `items` is not an array of strings because TypeScript will enforce this for you.
-
-Finally, one minor point that arises with the above type definition is that it can be slightly annoying to access the `renderItem` prop. Before accessing it, you must convince TypeScript that you are in the case where the `renderItem` prop exists.
-
-```ts
-function Dropdown<T>(props: Props<T>) {
-  // Type error: Property 'renderItem' does not exist on type 'Props<T>'.
-  const x = props.renderItem
-
-  // Using destructuring doesn't change anything. Still the same error
-  const { renderItem } = props
-
-  // Can't even check this way. Still the same error
-  if (props.renderItem) {
-    const x = props.render
-  }
-
-  // This works, but mildly annoying
-  if ('renderItem' in props) {
-    // No type error
-    const x = props.renderItem
-  }
-}
-```
-
-One way to get around this while not affecting how the component can be used is to add an optional `renderItem` prop of type `undefined` in the case where `items` is of type `string[]`:
-```ts
-type Props<T> = {
-
-  <...other props...>
 } & (
   | {
       items: string[]
-      renderItem?: undefined
+      renderItem?: never
     }
   | {
-      items: T[]
-      renderItem: (item: T) => React.ReactNode
+      items: Exclude<T, string>[]
+      renderItem: (item: Exclude<T, string>) => React.ReactNode
     }
 )
 ```
+This accurately conveys that when items is of type `string[]` you should not pass `renderItem`, but when items is not an array of strings, `renderItem` is required. You will get a type error if you leave it off.
 
-Now, property `renderItem` always exists on type `Props<T>`, but users still cannot pass anything for it when items is a string array. It simply allows your code within the Dropdown component to be a little cleaner.
+With this type definition, there is less confusion about how to use these props and you can even remove the defensive check you added previously to warn that the `renderItem` prop should be passed when `items` is not an array of strings because TypeScript will enforce this for you.
 
 ## Other examples
+
+### Chakra UI Accordion
 
 [Chakra UI](https://chakra-ui.com/) -- an excellent React component library -- contains an Accordion component that supports an `allowMultiple` prop. They [describe](https://chakra-ui.com/accordion#expand-multiple-items-at-once) the usage of this prop in their documentation as follows:
 
 > If you set `allowMultiple` to true then the accordion will permit multiple items to be expanded at once.
-
-> If you pass this prop, ensure that the index or defaultIndex prop is an array.
+<br/>
+If you pass this prop, ensure that the index or defaultIndex prop is an array.
 
 However the type definition for Accordion's props contains
 
@@ -174,12 +144,14 @@ In fact, I would guess that even further, one should not pass both `index` and `
 )
 ```
 
+### Course Hero Expandable Rich Text Editor
+
 A separate example which I found in the Course Hero codebase involved a rich text editor which was used in multiple places across the product. In general, it was basically used as a feature-rich textarea, but in one place, it was used within a sidebar and supported an expand/collapse functionality. The type defintion for the component's props included:
 
 ```ts
 type Props = {
 
-  <...other props...>
+  /* ...other props... */
 
   // If isExpanded is passed, you should also pass toggleExpand
   isExpanded?: boolean
@@ -192,7 +164,8 @@ While the comment is helpful, we can do better by actually enforcing this requir
 ```ts
 type Props = {
 
-  <...other props...>
+  /* ...other props... */
+
 } & (
   | {}
   | {
@@ -202,15 +175,39 @@ type Props = {
 )
 ```
 
-Or, if we want to avoid the annoying `'isExpanded' in props` type of checks described above:
+One minor point that arises with the above type definition is that it can be slightly annoying to access the `isExpanded` prop or `toggleExpanded` prop. Before accessing it, you must convince TypeScript that you are in the case where that prop exists.
+
+```ts
+function RichTextEditor(props: Props) {
+  // Type error: Property 'toggleExpand' does not exist on type 'Props'.
+  const x = props.toggleExpand
+
+  // Using destructuring doesn't change anything. Still the same error
+  const { toggleExpand } = props
+
+  // Can't even check this way. Still the same error
+  if (props.toggleExpand) {
+    const x = props.toggleExpand
+  }
+
+  // This works, but mildly annoying
+  if ('toggleExpand' in props) {
+    // No type error
+    const x = props.toggleExpand
+  }
+}
+```
+
+One way to get around this while not affecting how the component can be used is to make these props optional and of type `never` instead of leaving them off:
 ```ts
 type Props = {
 
-  <...other props...>
+  /* ...other props... */
+
 } & (
   | {
-      isExpanded?: undefined
-      toggleExpand?: undefined
+      isExpanded?: never
+      toggleExpand?: never
     }
   | {
       isExpanded: boolean
