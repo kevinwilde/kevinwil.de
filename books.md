@@ -1,3 +1,4 @@
+- **A Clockwork Orange** - Anthony Burgess
 - **Where the Crawdads Sing** - Delia Owens
 - **Native Son** - Richard Wright
 - **The Three-Body Problem** - Cixin Liu
