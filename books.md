@@ -1,3 +1,4 @@
+- **The Silent Patient** - Alex Michaelides
 - **A Clockwork Orange** - Anthony Burgess
 - **Where the Crawdads Sing** - Delia Owens
 - **Native Son** - Richard Wright
