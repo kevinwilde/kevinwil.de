@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import BLMIcon from "../../content/assets/BLM.png"
+
 class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
@@ -49,6 +51,8 @@ class Layout extends React.Component {
       )
     }
     return (
+      <>
+      <BLMBanner />
       <div
         style={{
           marginLeft: `auto`,
@@ -65,8 +69,47 @@ class Layout extends React.Component {
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>
       </div>
+      </>
     )
   }
+}
+
+function BLMBanner() {
+  return (
+    <div
+      style={{
+        background: 'black',
+        padding: `1rem 0`,
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+      }}
+    >
+      <a
+        style={{
+          color: 'yellow',
+          fontWeight: 'bold',
+          textDecoration: 'none',
+          boxShadow: 'none',
+        }}
+        href="https://blacklivesmatter.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Black Lives Matter
+      </a>
+      <img
+        height="18"
+        width="18"
+        src={BLMIcon}
+        alt=""
+        role="presentation"
+        style={{
+          margin: `0 0 0 1rem`,
+        }}
+      />
+    </div>
+  )
 }
 
 export default Layout
