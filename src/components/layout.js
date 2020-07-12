@@ -85,19 +85,14 @@ function BLMBanner() {
         alignItems: 'center',
       }}
     >
-      <a
+      <span
         style={{
-          color: 'yellow',
+          color: 'whitesmoke',
           fontWeight: 'bold',
-          textDecoration: 'none',
-          boxShadow: 'none',
         }}
-        href="https://blacklivesmatter.com/"
-        target="_blank"
-        rel="noopener noreferrer"
       >
         Black Lives Matter
-      </a>
+      </span>
       <img
         height="18"
         width="18"
