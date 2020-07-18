@@ -1,3 +1,4 @@
+- **The New Jim Crow: Mass Incarceration in the Age of Colorblindness** - Michelle Alexander
 - **Hillbilly Elegy: A Memoir of a Family and Culture in Crisis** - J.D. Vance
 - **The Silent Patient** - Alex Michaelides
 - **A Clockwork Orange** - Anthony Burgess
