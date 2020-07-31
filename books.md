@@ -16,6 +16,7 @@
 - **Everybody Lies: Big Data, New Data, and What the Internet Can Tell Us About Who We Really Are** - Seth Stephens-Davidowitz
 - **Locking Up Our Own: Crime and Punishment in Black America** - James Forman Jr.
 - **How Music Got Free** - Stephen Witt
+- **American Radical: Inside the World of an Undercover Muslim FBI Agent** - Tamer Elnoury
 - **Bad Blood** - John Carreyrou
 - **The Code Book** - Simon Singh
 - **Sharp Objects** - Gyllian Flynn
