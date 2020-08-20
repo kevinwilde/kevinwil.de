@@ -1,3 +1,4 @@
+- **The Nickel Boys** - Colson Whitehead
 - **The Great Believers** - Rebecca Makkai
 - **There There** - Tommy Orange
 - **Fermat's Enigma: The Epic Quest to Solve the World's Greatest Mathematical Problem** - Simon Singh
