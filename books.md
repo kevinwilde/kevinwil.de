@@ -1,3 +1,4 @@
+- **The Vanishing Half** - Brit Bennett
 - **The Nickel Boys** - Colson Whitehead
 - **The Great Believers** - Rebecca Makkai
 - **There There** - Tommy Orange
