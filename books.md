@@ -23,7 +23,7 @@
 - **Locking Up Our Own: Crime and Punishment in Black America** - James Forman Jr.
 - **How Music Got Free** - Stephen Witt
 - **American Radical: Inside the World of an Undercover Muslim FBI Agent** - Tamer Elnoury
-- **Bad Blood** - John Carreyrou
+- **Bad Blood: Secrets and Lies in a Silicon Valley Startup** - John Carreyrou
 - **The Code Book** - Simon Singh
 - **Sharp Objects** - Gyllian Flynn
 - **The Girl on the Train** - Paula Hawkins
@@ -31,6 +31,7 @@
 - **Mindset** - Carol S. Dweck
 - **The Hate U Give** - Angie Thomas
 - **Ready Player One** - Ernest Cline
+- **When Breath Becomes Air** - Paul Kalanithi
 - **Thinking Fast and Slow** - Daniel Kahneman
 - **Men Without Women** - Haruki Murakami
 - **The Talented Mr. Ripley** - Patricia Highsmith
