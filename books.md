@@ -1,3 +1,4 @@
+- **She Said: Breaking the Sexual Harassment Story That Helped Ignite a Movement** - Jodi Kantor, Megan Twohey
 - **The Color of Law: A Forgotten History of How Our Government Segregated America** - Richard Rothstein
 - **Exit West** - Mohsin Hamid
 - **The Mixer: The Story of Premier League Tactics, from Route One to False Nines** - Michael Cox
