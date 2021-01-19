@@ -1,3 +1,4 @@
+- **The Sun Does Shine: How I Found Life and Freedom on Death Row** - Anthony Ray Hinton and Lara Love Hardin
 - **She Said: Breaking the Sexual Harassment Story That Helped Ignite a Movement** - Jodi Kantor, Megan Twohey
 - **The Color of Law: A Forgotten History of How Our Government Segregated America** - Richard Rothstein
 - **Exit West** - Mohsin Hamid
