@@ -1,3 +1,4 @@
+- **Dopesick: Dealers, Doctors, and the Drug Company That Addicted America** - Beth Macy
 - **Classic Krakauer: Essays on Wilderness and Risk** - Jon Krakauer
 - **Say Nothing: A True Story of Murder and Memory in Northern Ireland** - Patrick Radden Keefe
 - **The Sun Does Shine: How I Found Life and Freedom on Death Row** - Anthony Ray Hinton and Lara Love Hardin
