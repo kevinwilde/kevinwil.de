@@ -1,3 +1,4 @@
+- **Before We Were Yours** - Lisa Wingate
 - **Dopesick: Dealers, Doctors, and the Drug Company That Addicted America** - Beth Macy
 - **Classic Krakauer: Essays on Wilderness and Risk** - Jon Krakauer
 - **Say Nothing: A True Story of Murder and Memory in Northern Ireland** - Patrick Radden Keefe
