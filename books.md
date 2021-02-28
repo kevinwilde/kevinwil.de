@@ -1,3 +1,4 @@
+- **Concrete Rose** - Angie Thomas
 - **They Were Her Property: White Women as Slave Owners in the American South** - Stephanie E. Jones-Rogers
 - **Before We Were Yours** - Lisa Wingate
 - **Dopesick: Dealers, Doctors, and the Drug Company That Addicted America** - Beth Macy
