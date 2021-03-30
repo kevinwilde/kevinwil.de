@@ -1,3 +1,4 @@
+- **American Dirt** - Jeanine Cummins
 - **Missoula: Rape and the Justice System in a College Town** - Jon Krakauer
 - **Concrete Rose** - Angie Thomas
 - **They Were Her Property: White Women as Slave Owners in the American South** - Stephanie E. Jones-Rogers
