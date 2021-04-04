@@ -6,7 +6,7 @@ description: ""
 
 Course Hero's main website is (for the most part) one large Symfony application. Symfony is a PHP framework, though the intricacies of Symfony will not be important for this article. The one thing we need to cover is the role that Assetic plays within a Symfony application.
 
-[Assetic](https://symfony.com/doc/2.7/frontend/assetic/asset_management.html) is used to manage static web assets such as JavaScript, CSS, and image files. It was created in the pre-Webpack era, when JavaScript was sprinkled on a page to add interactivity rather than used to power your whole app and frontend build tooling was limited. (In modern versions of Symfony, Assetic is deprecated in favor of a solution built on top of Webpack.) When using Assetic, JavaScript files are included on the page via the `javascripts` tag in a Twig template file.
+[Assetic](https://symfony.com/doc/2.7/frontend/assetic/asset_management.html) is used to manage static web assets such as JavaScript, CSS, and image files. It was created in the pre-Webpack era, when JavaScript was sprinkled on a page to add interactivity rather than used to power your whole app, and at a time when frontend build tooling was limited. (In modern versions of Symfony, Assetic is deprecated in favor of a solution built on top of Webpack.) When using Assetic, JavaScript files are included on the page via the `javascripts` tag in a Twig template file.
 
 ```html
 {% javascripts
