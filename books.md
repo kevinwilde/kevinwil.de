@@ -1,3 +1,4 @@
+- **Born a Crime: Stories from a South African Childhood** - Trevor Noah
 - **Just Mercy: A Story of Justice and Redemption** - Bryan Stevenson
 - **American Dirt** - Jeanine Cummins
 - **Missoula: Rape and the Justice System in a College Town** - Jon Krakauer
