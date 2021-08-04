@@ -1,3 +1,4 @@
+- **The Code Breaker: Jennifer Doudna, Gene Editing, and the Future of the Human Race** - Walter Isaacson
 - **And The Mountains Echoed** - Khaled Hosseini
 - **In Order to Live: A North Korean Girl's Journey to Freedom** - Yeonmi Park
 - **How to Pronounce Knife** - Souvankham Thammavongsa
