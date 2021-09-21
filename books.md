@@ -1,3 +1,4 @@
+- **American Prison: A Reporter's Undercover Journey into the Business of Punishment** - Shane Bauer
 - **The Daughters of Kobani** - Gayle Tzemach Lemmon
 - **The Fire Next Time** - James Baldwin
 - **Whistleblower: My Journey to Silicon Valley and Fight for Justice at Uber** - Susan Fowler
