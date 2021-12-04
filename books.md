@@ -1,3 +1,4 @@
+- **Know My Name** - Chanel Miller
 - **How the Word Is Passed: A Reckoning with the History of Slavery Across America** - Clint Smith
 - **To Hold Up the Sky** - Cixin Liu
 - **American Prison: A Reporter's Undercover Journey into the Business of Punishment** - Shane Bauer
