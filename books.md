@@ -1,3 +1,4 @@
+- **No Visible Bruises: What We Don't Know About Domestic Violence Can Kill Us** - Rachel Louise Snyder
 - **Know My Name** - Chanel Miller
 - **How the Word Is Passed: A Reckoning with the History of Slavery Across America** - Clint Smith
 - **To Hold Up the Sky** - Cixin Liu
