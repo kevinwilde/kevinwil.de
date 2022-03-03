@@ -1,3 +1,4 @@
+- **Somebody's Daughter: A Memoir** -  Ashley C. Ford
 - **The Library Book** - Susan Orlean
 - **No Visible Bruises: What We Don't Know About Domestic Violence Can Kill Us** - Rachel Louise Snyder
 - **Know My Name** - Chanel Miller
