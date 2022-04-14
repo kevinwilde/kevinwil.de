@@ -1,3 +1,4 @@
+- **The Big Short: Inside the Doomsday Machine** - Michael Lewis
 - **The Sum of Us: What Racism Costs Everyone and How We Can Prosper Together** - Heather McGhee
 - **Somebody's Daughter: A Memoir** -  Ashley C. Ford
 - **The Library Book** - Susan Orlean
