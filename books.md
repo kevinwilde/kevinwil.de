@@ -1,3 +1,4 @@
+- **There Is No Antimemetics Division** - qntm
 - **Endurance: Shackleton's Incredible Voyage** - Alfred Lansing
 - **The Writing of the Gods: The Race to Decode the Rosetta Stone** - Edward Dolnick
 - **The Big Short: Inside the Doomsday Machine** - Michael Lewis
