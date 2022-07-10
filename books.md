@@ -1,3 +1,4 @@
+- **Red Notice: A True Story of High Finance, Murder, and One Man's Fight for Justice** - Bill Browder
 - **The Undocumented Americans** - Karla Cornejo Villavicencio
 - **There Is No Antimemetics Division** - qntm
 - **Endurance: Shackleton's Incredible Voyage** - Alfred Lansing
