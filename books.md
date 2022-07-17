@@ -1,3 +1,4 @@
+- **Killers of the Flower Moon: The Osage Murders and the Birth of the FBI** - David Grann
 - **Red Notice: A True Story of High Finance, Murder, and One Man's Fight for Justice** - Bill Browder
 - **The Undocumented Americans** - Karla Cornejo Villavicencio
 - **There Is No Antimemetics Division** - qntm
