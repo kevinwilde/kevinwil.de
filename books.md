@@ -1,3 +1,4 @@
+- **This Is How They Tell Me the World Ends: The Cyberweapons Arms Race** - Nicole Perlroth
 - **Upgrade** - Blake Crouch
 - **Twilight of Democracy: The Seductive Lure of Authoritarianism** - Anne Applebaum
 - **Killers of the Flower Moon: The Osage Murders and the Birth of the FBI** - David Grann
