@@ -1,3 +1,4 @@
+- **The Girl Who Smiled Beads: A Story About War and What Comes After** - Clemantine Wamariya
 - **This Is How They Tell Me the World Ends: The Cyberweapons Arms Race** - Nicole Perlroth
 - **Upgrade** - Blake Crouch
 - **Twilight of Democracy: The Seductive Lure of Authoritarianism** - Anne Applebaum
