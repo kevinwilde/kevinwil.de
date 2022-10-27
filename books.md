@@ -1,3 +1,4 @@
+- **Under the Banner of Heaven: A Story of Violent Faith** - Jon Krakauer
 - **Super Pumped: The Battle for Uber** - Mike Isaac
 - **The Girl Who Smiled Beads: A Story About War and What Comes After** - Clemantine Wamariya
 - **This Is How They Tell Me the World Ends: The Cyberweapons Arms Race** - Nicole Perlroth
