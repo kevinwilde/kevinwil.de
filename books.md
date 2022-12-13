@@ -1,3 +1,4 @@
+- **The Devil in the White City: Murder, Magic, and Madness at the Fair That Changed America** - Erik Larson
 - **Caste: The Origins of Our Discontents** - Isabel Wilkerson
 - **Under the Banner of Heaven: A Story of Violent Faith** - Jon Krakauer
 - **Super Pumped: The Battle for Uber** - Mike Isaac
