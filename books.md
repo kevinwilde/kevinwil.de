@@ -1,3 +1,4 @@
+- **Tightrope: Americans Reaching for Hope** - Nicholas Kristof and Sheryl WuDunn
 - **The Devil in the White City: Murder, Magic, and Madness at the Fair That Changed America** - Erik Larson
 - **Caste: The Origins of Our Discontents** - Isabel Wilkerson
 - **Under the Banner of Heaven: A Story of Violent Faith** - Jon Krakauer
