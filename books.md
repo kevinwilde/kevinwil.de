@@ -1,3 +1,4 @@
+- **I Know Why the Caged Bird Sings** - Maya Angelou
 - **White Hot Hate: A True Story of Domestic Terrorism in America's Heartland** - Dick Lehr
 - **Tightrope: Americans Reaching for Hope** - Nicholas Kristof and Sheryl WuDunn
 - **The Devil in the White City: Murder, Magic, and Madness at the Fair That Changed America** - Erik Larson
