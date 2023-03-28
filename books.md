@@ -1,3 +1,4 @@
+- **Half the Sky: Turning Oppression into Opportunity for Women Worldwide** - Nicholas Kristof and Sheryl WuDunn
 - **I Know Why the Caged Bird Sings** - Maya Angelou
 - **White Hot Hate: A True Story of Domestic Terrorism in America's Heartland** - Dick Lehr
 - **Tightrope: Americans Reaching for Hope** - Nicholas Kristof and Sheryl WuDunn
