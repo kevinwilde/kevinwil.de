@@ -1,3 +1,4 @@
+- **Die With Zero: Getting All You Can from Your Money and Your Life** - Bill Perkins
 - **Sandworm: A New Era of Cyberwar and the Hunt for the Kremlin's Most Dangerous Hackers** - Andy Greenberg
 - **Half the Sky: Turning Oppression into Opportunity for Women Worldwide** - Nicholas Kristof and Sheryl WuDunn
 - **I Know Why the Caged Bird Sings** - Maya Angelou
