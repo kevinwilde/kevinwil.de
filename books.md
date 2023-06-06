@@ -1,3 +1,4 @@
+- **The Martian** - Andy Weir
 - **Infamy: The Shocking Story of the Japanese American Internment in World War II** - Richard Reeves
 - **Die With Zero: Getting All You Can from Your Money and Your Life** - Bill Perkins
 - **Sandworm: A New Era of Cyberwar and the Hunt for the Kremlin's Most Dangerous Hackers** - Andy Greenberg
