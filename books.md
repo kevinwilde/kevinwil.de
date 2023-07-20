@@ -1,3 +1,4 @@
+- **The World as It Is** - Ben Rhodes
 - **A Crack in Creation: Gene Editing and the Unthinkable Power to Control Evolution** - Jennifer A. Doudna, Samuel H. Sternberg
 - **The Martian** - Andy Weir
 - **Infamy: The Shocking Story of the Japanese American Internment in World War II** - Richard Reeves
