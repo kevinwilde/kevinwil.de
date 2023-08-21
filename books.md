@@ -1,3 +1,4 @@
+- **Project Hail Mary** - Andy Weir
 - **Recoding America: Why Government Is Failing in the Digital Age and How We Can Do Better** - Jennifer Pahlka
 - **I'll Be Gone in the Dark: One Woman's Obsessive Search for the Golden State Killer** - Michelle McNamara
 - **The World as It Is** - Ben Rhodes
