@@ -1,3 +1,4 @@
+- **Hidden Valley Road: Inside the Mind of an American Family** - Robert Kolker
 - **Recursion** - Blake Crouch
 - **Dark Matter** - Blake Crouch
 - **Poverty, by America** - Matthew Desmond
