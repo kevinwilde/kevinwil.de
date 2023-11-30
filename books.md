@@ -1,3 +1,4 @@
+- **Midnight in Chernobyl: The Untold Story of the World's Greatest Nuclear Disaster** - Adam Higginbotham
 - **Yellow Bird: Oil, Murder, and a Woman's Search for Justice in Indian Country** - Sierra Crane Murdoch
 - **Hidden Valley Road: Inside the Mind of an American Family** - Robert Kolker
 - **Recursion** - Blake Crouch
