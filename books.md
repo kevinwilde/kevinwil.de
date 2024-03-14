@@ -1,3 +1,4 @@
+- **Brotopia: Breaking Up the Boys' Club of Silicon Valley** - Emily Chang
 - **A Woman of No Importance: The Untold Story of the American Spy Who Helped Win World War II** - Sonia Purnell
 - **The Poisoned City: Flint's Water and the American Urban Tragedy** - Anna Clark
 - **Invisible Child: Poverty, Survival & Hope in an American City** - Andrea Elliott
