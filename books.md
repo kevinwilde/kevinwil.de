@@ -1,3 +1,4 @@
+- **The Wager: A Tale of Shipwreck, Mutiny and Murder** - David Grann
 - **Mystic River** - Dennis Lehane
 - **Brotopia: Breaking Up the Boys' Club of Silicon Valley** - Emily Chang
 - **A Woman of No Importance: The Untold Story of the American Spy Who Helped Win World War II** - Sonia Purnell
