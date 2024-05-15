@@ -1,3 +1,4 @@
+- **A Colony in a Nation** - Chris Hayes
 - **The Wager: A Tale of Shipwreck, Mutiny and Murder** - David Grann
 - **Mystic River** - Dennis Lehane
 - **Brotopia: Breaking Up the Boys' Club of Silicon Valley** - Emily Chang
