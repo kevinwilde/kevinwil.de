@@ -1,3 +1,4 @@
+- **Billion Dollar Whale: The Man Who Fooled Wall Street, Hollywood, and the World** - Tom Wright, Bradley Hope
 - **A Colony in a Nation** - Chris Hayes
 - **The Wager: A Tale of Shipwreck, Mutiny and Murder** - David Grann
 - **Mystic River** - Dennis Lehane
