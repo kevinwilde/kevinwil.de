@@ -1,3 +1,4 @@
+- **Dead Wake: The Last Crossing of the Lusitania** - Erik Larson
 - **Artemis** - Andy Weir
 - **The Heart's Invisible Furies** - John Boyne
 - **Being Mortal: Medicine and What Matters in the End** - Atul Gawande
