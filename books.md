@@ -1,3 +1,4 @@
+- **Digital Minimalism: Choosing a Focused Life in a Noisy World** - Cal Newport
 - **Dead Wake: The Last Crossing of the Lusitania** - Erik Larson
 - **Artemis** - Andy Weir
 - **The Heart's Invisible Furies** - John Boyne
