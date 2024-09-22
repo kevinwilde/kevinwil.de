@@ -1,3 +1,4 @@
+- **The Black Echo** - Michael Connelly
 - **Prey** - Michael Crichton
 - **Digital Minimalism: Choosing a Focused Life in a Noisy World** - Cal Newport
 - **Dead Wake: The Last Crossing of the Lusitania** - Erik Larson
