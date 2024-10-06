@@ -1,3 +1,4 @@
+- **The Distance Between Us: A Memoir** - Reyna Grande
 - **The Black Echo** - Michael Connelly
 - **Prey** - Michael Crichton
 - **Digital Minimalism: Choosing a Focused Life in a Noisy World** - Cal Newport
