@@ -1,3 +1,4 @@
+- **The Girl Who Played with Fire** - Stieg Larsson
 - **The Girl with the Dragon Tattoo** - Stieg Larsson
 - **The Distance Between Us: A Memoir** - Reyna Grande
 - **The Black Echo** - Michael Connelly
