@@ -1,3 +1,4 @@
+- **All the Sinners Bleed** - S. A. Cosby
 - **Exhalation** - Ted Chiang
 - **The Girl Who Played with Fire** - Stieg Larsson
 - **The Girl with the Dragon Tattoo** - Stieg Larsson
