@@ -1,3 +1,4 @@
+- **When We Cease to Understand the World** - Benjamín Labatut
 - **Wounded Knee: Party Politics and the Road to an American Massacre** - Heather Cox Richardson
 - **American Kingpin: The Epic Hunt for the Criminal Mastermind Behind the Silk Road** - Nick Bilton
 - **All the Sinners Bleed** - S. A. Cosby
