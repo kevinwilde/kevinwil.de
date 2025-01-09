@@ -1,3 +1,4 @@
+- **The Girl in the Spider's Web** - David Lagercrantz
 - **The Girl Who Kicked the Hornet’s Nest** - Stieg Larsson
 - **When We Cease to Understand the World** - Benjamín Labatut
 - **Wounded Knee: Party Politics and the Road to an American Massacre** - Heather Cox Richardson
