@@ -1,3 +1,4 @@
+- **Into Thin Air: A Personal Account of the Mt. Everest Disaster** - Jon Krakauer
 - **The Girl in the Spider's Web** - David Lagercrantz
 - **The Girl Who Kicked the Hornet’s Nest** - Stieg Larsson
 - **When We Cease to Understand the World** - Benjamín Labatut
