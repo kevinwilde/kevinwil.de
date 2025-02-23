@@ -1,3 +1,4 @@
+- **The Reversal** - Michael Connelly
 - **Killing Adam** - Earik Beann
 - **The Girl Who Takes an Eye for an Eye** - David Lagercrantz
 - **Into Thin Air: A Personal Account of the Mt. Everest Disaster** - Jon Krakauer
