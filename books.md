@@ -1,3 +1,4 @@
+- **The Girl in the Eagle's Talons** - Karin Smirnoff
 - **The Girl Who Lived Twice** - David Lagercrantz
 - **The Reversal** - Michael Connelly
 - **Killing Adam** - Earik Beann
