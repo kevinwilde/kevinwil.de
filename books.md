@@ -1,3 +1,4 @@
+- **The Small and the Mighty: Twelve Unsung Americans Who Changed the Course of History, from the Founding to the Civil Rights Movement** - Sharon McMahon
 - **The Redemption of Time** - Baoshu
 - **Death's End** - Cixin Liu
 - **The Dark Forest** - Cixin Liu
