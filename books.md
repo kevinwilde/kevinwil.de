@@ -1,3 +1,4 @@
+- **The Wide Wide Sea: Imperial Ambition, First Contact and the Fateful Final Voyage of Captain James Cook** - Hampton Sides
 - **Code to Zero** - Ken Follett
 - **Going Zero** - Anthony McCarten
 - **The Small and the Mighty: Twelve Unsung Americans Who Changed the Course of History, from the Founding to the Civil Rights Movement** - Sharon McMahon
