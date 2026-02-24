@@ -1,3 +1,4 @@
+- **Small Things Like These** - Claire Keegan
 - **The Wide Wide Sea: Imperial Ambition, First Contact and the Fateful Final Voyage of Captain James Cook** - Hampton Sides
 - **Code to Zero** - Ken Follett
 - **Going Zero** - Anthony McCarten
