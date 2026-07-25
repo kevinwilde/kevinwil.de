@@ -1,3 +1,4 @@
+- **Careless People: A Cautionary Tale of Power, Greed, and Lost Idealism** - Sarah Wynn-Williams
 - **Don't Call It a Comeback: What Happened When I Stopped Chasing PRs, and Started Chasing Happiness** - Keira D'Amato
 - **Small Things Like These** - Claire Keegan
 - **The Wide Wide Sea: Imperial Ambition, First Contact and the Fateful Final Voyage of Captain James Cook** - Hampton Sides
